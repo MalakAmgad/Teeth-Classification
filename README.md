@@ -51,17 +51,18 @@ The dataset is divided into training, validation, and testing sets. The project 
 ### 4.2 MobileNetV2 with Fine-Tuning
 - **Base Model**: The **MobileNetV2** model, pre-trained on ImageNet, was used as the base model. The top layers of MobileNetV2 were frozen initially, and custom dense layers were added for classification.
 - **Fine-Tuning**: After training the custom layers, the top layers of MobileNetV2 were unfrozen, and the entire model was fine-tuned with a lower learning rate to adapt it to the teeth classification task.
-- **Training**: The model was trained for `30 epochs` with early stopping to prevent overfitting.
+- **Training**: The model was trained for `15 epochs` with early stopping to prevent overfitting.
 
 ---
 
 ## 5. Training and Fine-Tuning
 - **Custom CNN**:
   - Trained for `30 epochs` with a learning rate of `0.001`.
-  - Achieved a training accuracy of approximately `92%` and a validation accuracy of `89%`.
+  - Achieved a training accuracy of approximately `85%` and a validation accuracy of `92%`.
+  - After fine-tuning, the model achieved a training accuracy of `94%`
 - **MobileNetV2**:
-  - Initial training of the custom layers achieved a training accuracy of `94%` and a validation accuracy of `91%`.
-  - After fine-tuning, the model achieved a training accuracy of `96%` and a validation accuracy of `93%`.
+  - Initial training of the custom layers achieved a training accuracy of `86%` and a validation accuracy of `94%`.
+  - After fine-tuning, the model achieved a training accuracy of `92%` and a validation accuracy of `93%`.
 
 ---
 
