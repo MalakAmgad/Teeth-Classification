@@ -52,7 +52,7 @@ The goal of this project is to classify teeth images into different categories u
 - **Validation Accuracy**: The validation accuracy reached around `92%`.
 - **Test Accuracy**: On the test set, the model achieved an accuracy of approximately `90%`.
 - **Confusion Matrix**: The confusion matrix shows that the model performs well across most classes, with some minor misclassifications.
-  ![Results](https://github.com/MalakAmgad/Teeth-Classification/blob/main/CNF.png)
+  ![Results](https://github.com/MalakAmgad/Teeth-Classification/blob/main/CNF1.png)
 
 ---
 
